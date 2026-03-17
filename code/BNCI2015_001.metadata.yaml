@@ -1,0 +1,157 @@
+_dataset:
+  class: BNCI2015_001
+  code: BNCI2015-001
+  doi: 10.1109/tnsre.2012.2189584
+  interval:
+  - 0
+  - 5
+  n_subjects: 12
+  paradigm: imagery
+acquisition:
+  auxiliary_channels:
+    other_physiological:
+    - gsr
+  cap_manufacturer: g.tec
+  cap_model: g.GAMMAsys
+  channel_types:
+    eeg: 13
+  filters: 50 Hz notch
+  hardware: g.tec
+  line_freq: 50.0
+  montage: 10-20
+  n_channels: 13
+  reference: Car
+  sampling_rate: 512.0
+  sensor_type: active electrode
+  sensors:
+  - FC3
+  - FCz
+  - FC4
+  - C5
+  - C3
+  - C1
+  - Cz
+  - C2
+  - C4
+  - C6
+  - CP3
+  - CPz
+  - CP4
+  software: Matlab
+bci_application:
+  applications:
+  - communication
+  - control
+  online_feedback: true
+cross_validation:
+  cv_method: leave-one-out
+  evaluation_type:
+  - cross_session
+data_processed: true
+data_structure:
+  n_trials: 200
+  n_trials_per_class:
+    feet: 100
+    right_hand: 100
+  trials_context: per_session
+documentation:
+  contact_info:
+  - josef.faller@tugraz.at
+  - christa.neuper@uni-graz.at
+  - carmen.vidaurre@tu-berlin.de
+  country: Austria
+  doi: 10.1109/tnsre.2012.2189584
+  funding:
+  - FP7 Framework EU Research Project BrainAble (No. 247447)
+  institution: Graz University of Technology
+  institution_address: 8010 Graz, Austria
+  institution_department: Institute of Knowledge Discovery
+  investigators:
+  - Josef Faller
+  - Carmen Vidaurre
+  - Teodoro Solis-Escalante
+  - Christa Neuper
+  - Reinhold Scherer
+  license: CC-BY-NC-ND-4.0
+  publication_year: 2012
+  repository: BNCI Horizon
+  senior_author: Reinhold Scherer
+experiment:
+  class_labels:
+  - right_hand
+  - feet
+  events:
+    feet: 2
+    right_hand: 1
+  feedback_type: visual
+  instructions: 'Relax during reference period (3s), perform sustained kinesthetic movement imagery during activity period.
+    Condition 1 (arrow right): imagine palmar grip with right hand. Condition 2 (arrow down): imagine plantar extension of
+    both feet.'
+  mode: training
+  n_classes: 2
+  paradigm: imagery
+  primary_modality: visual
+  stimulus_modalities:
+  - visual
+  - auditory
+  stimulus_type: cursor_feedback
+  study_design: 'Two-class motor imagery: sustained right hand movement imagery (palmar grip) versus both feet movement imagery
+    (plantar extension)'
+  synchronicity: synchronous
+  trial_duration: 11.0
+file_format: gdf
+paradigm_specific:
+  cue_duration_s: 1.25
+  detected_paradigm: motor_imagery
+  imagery_duration_s: 4.0
+  imagery_tasks:
+  - right_hand_palmar_grip
+  - both_feet_plantar_extension
+participants:
+  age_mean: 24.8
+  bci_experience: naive
+  gender:
+    female: 5
+    male: 7
+  handedness: all right-handed
+  health_status: healthy
+  n_subjects: 12
+  species: human
+performance:
+  accuracy_percent: 80.0
+preprocessing:
+  bandpass:
+    high_cutoff_hz: 100.0
+    low_cutoff_hz: 0.5
+  data_state: filtered
+  highpass_hz: 0.5
+  lowpass_hz: 100.0
+  notch_hz:
+  - 50.0
+  preprocessing_applied: true
+  preprocessing_steps:
+  - bandpass filter
+  - notch filter
+  re_reference: car
+runs_per_session: 1
+sessions_per_subject: 2
+signal_processing:
+  classifiers:
+  - LDA
+  feature_extraction:
+  - logarithmic bandpower
+  - CSP
+  frequency_bands:
+    alpha:
+    - 10
+    - 13
+    beta:
+    - 16
+    - 24
+tags:
+  modality:
+  - Motor
+  pathology:
+  - Healthy
+  type:
+  - Motor
