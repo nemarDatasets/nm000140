@@ -1,0 +1,90 @@
+{
+  "version": "2.0",
+  "pipeline_stage": "validated",
+  "authors": {
+    "Josef Faller": {},
+    "Carmen Vidaurre": {},
+    "Teodoro Solis-Escalante": {},
+    "Christa Neuper": {},
+    "Reinhold Scherer": {}
+  },
+  "related_identifiers": [
+    {
+      "identifier": "10.1109/tnsre.2012.2189584",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000140",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=nm000140",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.21105/joss.01896",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.1038/s41597-019-0104-8",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    }
+  ],
+  "funding_references": [
+    {
+      "funder_name": "European Commission",
+      "award_number": "247447",
+      "award_title": "BrainAble"
+    }
+  ],
+  "title": "BNCI 2015-001 Motor Imagery dataset",
+  "license": "CC-BY-NC-ND-4.0",
+  "dataset_type": "derivative",
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "1.2 GB (31 files)"
+  ],
+  "formats": [
+    ".bdf",
+    ".html",
+    ".json",
+    ".md",
+    ".tsv",
+    ".yaml",
+    ".yml"
+  ],
+  "description": "A motor imagery EEG dataset comprising 12 healthy, right-handed naive subjects performing two-class imagery tasks (right hand palmar grip versus bilateral feet plantar extension) across two sessions. The dataset includes 13-channel EEG recordings at 512 Hz with preprocessed data (bandpass filtered 0.5-100 Hz, notch filtered at 50 Hz) and achieves 80% classification accuracy using LDA with common spatial patterns and logarithmic bandpower features, designed for brain-computer interface research and benchmarking.",
+  "methods_description": "EEG data were acquired using g.tec g.GAMMAsys active electrode system with 13 channels (FC3, FCz, FC4, C5, C3, C1, Cz, C2, C4, C6, CP3, CPz, CP4) positioned according to the 10-20 montage at 512 Hz sampling rate. Online 50 Hz notch filtering was applied. Offline preprocessing included bandpass filtering (0.5-100 Hz) and common average re-referencing. Subjects performed sustained kinesthetic motor imagery during 4-second imagery periods cued by visual arrows, with 1.25-second cue duration and 3-second baseline periods.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "motor imagery"
+    },
+    {
+      "term": "Brain-Computer Interfaces",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
+    },
+    {
+      "term": "common spatial patterns"
+    },
+    {
+      "term": "linear discriminant analysis"
+    },
+    {
+      "term": "event-related desynchronization"
+    }
+  ],
+  "source_hash": "f04a005df03c7278cdff0a6ccd6e4d6b05d9d10dac16406c08c18a9b802b984f"
+}
