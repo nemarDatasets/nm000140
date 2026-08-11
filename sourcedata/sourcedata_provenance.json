@@ -1,0 +1,155 @@
+{
+ "dataset": "nm000140",
+ "moabb_class": "BNCI2015_001",
+ "moabb_version_used": "1.5.0",
+ "retrieved": "2026-08-11",
+ "retrieved_by": "moabb.datasets.BNCI2015_001.data_path()",
+ "upstream_cache_root": "/expanse/lustre/scratch/bpinto/temp_project/sourcedata_staging/mne_data/MNE-bnci-data/~bci/database/001-2015",
+ "license": "CC-BY-NC-ND-4.0",
+ "doi": "10.1109/tnsre.2012.2189584",
+ "naming": "upstream_filenames_restored",
+ "n_files": 28,
+ "total_bytes": 1829852797,
+ "files": [
+  {
+   "file": "S01A.mat",
+   "bytes": 65523982,
+   "sha256": "2d1631084b40b6d1d4059449602d9e7f44cb8cbb5464b7bc204081d4c463e0d4"
+  },
+  {
+   "file": "S01B.mat",
+   "bytes": 65328153,
+   "sha256": "c1967542288f1081f933c89b0b2b5fd817cc73a130af848951fe15d8a904fc33"
+  },
+  {
+   "file": "S02A.mat",
+   "bytes": 65164599,
+   "sha256": "895d404f3b47488fa90c0dc9a1ed8199dedc84d4ffd9ec7eaa5ce596be863090"
+  },
+  {
+   "file": "S02B.mat",
+   "bytes": 64937825,
+   "sha256": "0d45430da95c7ba46297c351fb35ca9f95d3b19a433fd051504f3415be450acb"
+  },
+  {
+   "file": "S03A.mat",
+   "bytes": 65173180,
+   "sha256": "be563a90f06f7c27aa0d25e8f108080212dee9564e4a57a63173d49c2c62a11b"
+  },
+  {
+   "file": "S03B.mat",
+   "bytes": 64827317,
+   "sha256": "8b962d8afcf1453e0ea451cdc9ad68d58f64220655c2cbe04c4ce65a0904ccb8"
+  },
+  {
+   "file": "S04A.mat",
+   "bytes": 65297785,
+   "sha256": "0d01381d522d7e9f2fb38afd09469a477156e314afd9ef975f6ea91bfcf0ffd0"
+  },
+  {
+   "file": "S04B.mat",
+   "bytes": 65025587,
+   "sha256": "8ff5b426ea3568b04d756d91b7686c962f6d58438978b3ba4adb7051198022f7"
+  },
+  {
+   "file": "S05A.mat",
+   "bytes": 65684245,
+   "sha256": "f7c674cfaabb473822770cef054c1a1ae3f6beb28e4a54c1608fa9c1fb9a9116"
+  },
+  {
+   "file": "S05B.mat",
+   "bytes": 64563996,
+   "sha256": "7ed264c798901f852362d6b9478dc24bebfde667ebb7ea5c472ed7ec417d3ca5"
+  },
+  {
+   "file": "S06A.mat",
+   "bytes": 65384624,
+   "sha256": "e58eb1eecd7d93314f8b53986b7d77df3aa1d664c35d5fdccebffb93243d282d"
+  },
+  {
+   "file": "S06B.mat",
+   "bytes": 65230013,
+   "sha256": "aa6d573c96af4a4d3912d87ecb26f0c9025c0b44a59c39ffed8ae9194f4ac4d8"
+  },
+  {
+   "file": "S07A.mat",
+   "bytes": 65255300,
+   "sha256": "6319916b7cdf7cd2d36f0669bd4a5d08a61dd4a15bae3ffea1fd9db6b38ac0ff"
+  },
+  {
+   "file": "S07B.mat",
+   "bytes": 65210630,
+   "sha256": "fb74d4bb6de2428b7375c7d028d0184eef984a4f13e1f62eb4aeae2c0b897e92"
+  },
+  {
+   "file": "S08A.mat",
+   "bytes": 65728409,
+   "sha256": "0940a95fa9d7577a426b3ce91007032e4479c3c7849a02ff81f96c5c866b33d5"
+  },
+  {
+   "file": "S08B.mat",
+   "bytes": 65454476,
+   "sha256": "86786c03b6bd9d3dd1f2864d79a079c4625889ea9ff30561d1d27e9627d2cf18"
+  },
+  {
+   "file": "S08C.mat",
+   "bytes": 65467345,
+   "sha256": "a3ab39717ba3a437d31cbdb4a8560e19580fd5e69b93925653942f85e3bf0b11"
+  },
+  {
+   "file": "S09A.mat",
+   "bytes": 65227428,
+   "sha256": "a6c3531be0637f79f8fa6a96b3f819cd5f2c8831e10cf9ff493a4c8fc1e5cb52"
+  },
+  {
+   "file": "S09B.mat",
+   "bytes": 65309772,
+   "sha256": "c848d2f1d7b709344a258cc7c1ea947978e7e99986720e6adb10d266c1cb10e0"
+  },
+  {
+   "file": "S09C.mat",
+   "bytes": 65457300,
+   "sha256": "71a28f806488889445a6cf84f7baecab74d0496fd50293b67dec5772f63e72de"
+  },
+  {
+   "file": "S10A.mat",
+   "bytes": 65548665,
+   "sha256": "4f94da57deb275848e3f404fabc17cff8597bfbbadb23e5ac9da3c772341a416"
+  },
+  {
+   "file": "S10B.mat",
+   "bytes": 65736426,
+   "sha256": "0808b890c9d017eda6f6685addb9ef854552570fb9992609a3f63fca8ab88a13"
+  },
+  {
+   "file": "S10C.mat",
+   "bytes": 65641635,
+   "sha256": "661e8dc462d527447d4cbaf973bcd4c4c4192fce17f333e5053d78268eaa76ed"
+  },
+  {
+   "file": "S11A.mat",
+   "bytes": 65689920,
+   "sha256": "5cc12d6a9b21e9cb6a6c3e751f0386b5332ec9804431bfbf795c6731609e45ef"
+  },
+  {
+   "file": "S11B.mat",
+   "bytes": 65449238,
+   "sha256": "804b7559fc784ea1a5b94f551e13a8995b33c4b9dd4acfb902d278725530ee09"
+  },
+  {
+   "file": "S11C.mat",
+   "bytes": 65312305,
+   "sha256": "4696dfabac40ee0b44504bbaa2e196d105aec06d3fe91f4e77d022e52fac3e29"
+  },
+  {
+   "file": "S12A.mat",
+   "bytes": 65632446,
+   "sha256": "6adfcc0a89b031752299fca3ccd03936ef2059e61074d90ba7d6c2a787e1c90d"
+  },
+  {
+   "file": "S12B.mat",
+   "bytes": 65590196,
+   "sha256": "ea198d64ce4e786056b85330c6e9f06b17c0fb4ba0edb79f0ad71ae8250ee25e"
+  }
+ ]
+}
