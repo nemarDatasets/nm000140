@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "BNCI 2015-001 Motor Imagery dataset",
-  "description": "A motor imagery EEG dataset comprising recordings from 12 healthy, naive participants performing two-class kinesthetic imagery tasks (right hand palmar grip versus bilateral feet plantar extension). The dataset includes 200 trials per participant across two sessions, acquired at 512 Hz from 13 EEG channels using the 10-20 montage with visual feedback. Data have been preprocessed with bandpass filtering (0.5-100 Hz) and notch filtering at 50 Hz, achieving approximately 80% classification accuracy using LDA with common spatial patterns and logarithmic bandpower features.",
-  "methods_description": "EEG data were acquired at 512 Hz from 13 active electrodes (FC3, FCz, FC4, C5, C3, C1, Cz, C2, C4, C6, CP3, CPz, CP4) using the 10-20 montage with g.tec g.GAMMAsys hardware. Online 50 Hz notch filtering was applied. Preprocessing included bandpass filtering (0.5-100 Hz) and common average re-referencing. Participants performed sustained kinesthetic motor imagery during 4-second activity periods following 1.25-second visual cues, with 3-second rest periods between trials. Feature extraction employed common spatial patterns and logarithmic bandpower in alpha (10-13 Hz) and beta (16-24 Hz) bands, classified using linear discriminant analysis with leave-one-out cross-validation.",
+  "description": "A two-class motor imagery EEG dataset comprising 12 healthy, right-handed naive subjects performing sustained kinesthetic imagery of right-hand palmar grip versus bilateral feet plantar extension. The dataset includes 2 sessions per subject with 200 trials total (100 per class), recorded at 512 Hz from 13 EEG channels using g.tec hardware with visual and auditory feedback. Data were preprocessed with bandpass filtering (0.5-100 Hz) and notch filtering at 50 Hz, achieving 80% classification accuracy with LDA and Common Spatial Patterns features.",
+  "methods_description": "EEG data were acquired at 512 Hz from 13 active electrodes (FC3, FCz, FC4, C5, C3, C1, Cz, C2, C4, C6, CP3, CPz, CP4) using g.tec g.GAMMAsys cap with 10-20 montage. Online 50 Hz notch filtering was applied. Preprocessing included bandpass filtering (0.5-100 Hz) and common average re-referencing. Subjects performed two-class motor imagery tasks with visual cursor feedback: right-hand palmar grip imagery (1.25 s cue, 4 s imagery) versus bilateral feet plantar extension imagery. Each session contained 100 trials per class.",
   "license": "CC-BY-NC-ND-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -24,13 +24,13 @@
       "term": "brain-computer interfaces"
     },
     {
-      "term": "common spatial patterns"
-    },
-    {
-      "term": "kinesthetic imagery"
+      "term": "Common Spatial Patterns"
     },
     {
       "term": "event-related desynchronization"
+    },
+    {
+      "term": "kinesthetic imagery"
     }
   ],
   "related_identifiers": [
@@ -85,5 +85,5 @@
     ".yaml",
     ".yml"
   ],
-  "source_hash": "2207b26b42e59499b5dc4d9d74c1d903c26dd0733ff3199ca8ebb4cf1c4dd714"
+  "source_hash": "766e98de3e1e3c7c9d340b32f88064729d4de1b71eb23b4206856e69f84f0ba8"
 }
