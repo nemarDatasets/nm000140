@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "BNCI 2015-001 Motor Imagery dataset",
-  "description": "A two-class motor imagery EEG dataset comprising 12 healthy, right-handed naive subjects performing sustained kinesthetic imagery of right-hand palmar grip versus bilateral feet plantar extension. The dataset includes 2 sessions per subject with 200 trials total (100 per class), recorded at 512 Hz from 13 EEG channels using g.tec hardware with visual and auditory feedback. Data were preprocessed with bandpass filtering (0.5-100 Hz) and notch filtering at 50 Hz, achieving 80% classification accuracy with LDA and Common Spatial Patterns features.",
-  "methods_description": "EEG data were acquired at 512 Hz from 13 active electrodes (FC3, FCz, FC4, C5, C3, C1, Cz, C2, C4, C6, CP3, CPz, CP4) using g.tec g.GAMMAsys cap with 10-20 montage. Online 50 Hz notch filtering was applied. Preprocessing included bandpass filtering (0.5-100 Hz) and common average re-referencing. Subjects performed two-class motor imagery tasks with visual cursor feedback: right-hand palmar grip imagery (1.25 s cue, 4 s imagery) versus bilateral feet plantar extension imagery. Each session contained 100 trials per class.",
+  "description": "EEG recordings from 12 healthy, BCI-naive participants performing two-class motor imagery (sustained right-hand palmar grip versus both-feet plantar extension) across two sessions, with 200 trials per session. Data were recorded from 13 sensorimotor channels at 512 Hz with visual cursor feedback, in support of an autocalibrating, recurrently adapting online ERD-based brain-computer interface. The dataset is distributed in BIDS format via MOABB.",
+  "methods_description": "EEG was recorded with g.tec active electrodes (g.GAMMAsys cap) from 13 channels over sensorimotor areas in a 10-20 layout at 512 Hz, with a 0.5-100 Hz bandpass and 50 Hz notch filter, plus a GSR auxiliary channel. Each trial had a 3 s reference period followed by a cue (1.25 s) and 4 s of kinesthetic motor imagery with visual feedback. Original analyses used logarithmic bandpower and CSP features with LDA classification.",
   "license": "CC-BY-NC-ND-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -21,16 +21,19 @@
       "term": "motor imagery"
     },
     {
-      "term": "brain-computer interfaces"
-    },
-    {
-      "term": "Common Spatial Patterns"
+      "term": "Brain-Computer Interfaces",
+      "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
     },
     {
       "term": "event-related desynchronization"
     },
     {
-      "term": "kinesthetic imagery"
+      "term": "sensorimotor rhythms"
+    },
+    {
+      "term": "online adaptation"
     }
   ],
   "related_identifiers": [
@@ -62,9 +65,8 @@
   ],
   "funding_references": [
     {
-      "funder_name": "European Commission",
-      "award_number": "247447",
-      "award_title": "BrainAble"
+      "funder_name": "FP7 Framework EU Research Project BrainAble",
+      "award_number": "247447"
     }
   ],
   "resource_type_general": "Dataset",
@@ -73,7 +75,7 @@
     "eeg"
   ],
   "sizes": [
-    "3.0 GB (59 files)"
+    "2.83 GB (59 files)"
   ],
   "formats": [
     ".bdf",
